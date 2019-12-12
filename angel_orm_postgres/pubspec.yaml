@@ -6,7 +6,7 @@ homepage: https://github.com/angel-dart/orm
 environment:
   sdk: '>=2.0.0 <3.0.0'
 dependencies:
-  angel_orm: ^2.1.0-beta
+  angel_orm:
   logging: ^0.11.0
   pool: ^1.0.0
   postgres: ^1.0.0
