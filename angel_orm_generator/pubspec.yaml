@@ -9,7 +9,10 @@ dependencies:
   analyzer: ">=0.35.0 <2.0.0"
   angel_model: ^1.0.0
   angel_serialize: ^2.0.0
-  angel_orm: ^2.1.0-beta
+  angel_orm:
+    git:
+      url: https://github.com/kevinelliott/orm.git
+      path: angel_orm
   angel_serialize_generator: ^2.0.0
   build: ^1.0.0
   build_config: ^0.4.0
