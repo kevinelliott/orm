@@ -7,6 +7,9 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 dependencies:
   angel_orm:
+    git:
+      url: https://github.com/kevinelliott/orm.git
+      path: angel_orm
   logging: ^0.11.0
   pool: ^1.0.0
   postgres: ^1.0.0
