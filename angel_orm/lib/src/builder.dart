@@ -49,7 +49,7 @@ class NumericSqlExpressionBuilder<T extends num>
     if (_raw != null) return _raw;
     if (_value == null) return null;
     var v = _value.toString();
-    if (T == double) v = 'CAST ("$v" as FLOAT)';
+    if (T == double) v = "CAST ('$v' as FLOAT)";
     if (_cast != null) v = 'CAST ($v AS $_cast)';
     return '$_op $v';
   }
